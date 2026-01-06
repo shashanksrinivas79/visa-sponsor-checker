@@ -1,0 +1,14 @@
+#visa-checker-badge {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    padding: 12px 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    z-index: 10000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
