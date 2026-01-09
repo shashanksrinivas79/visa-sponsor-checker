@@ -2,7 +2,7 @@ let timeout = null;
 
 const KEYWORDS = {
   positive: [/sponsorship available/i,/Limited immigration sponsorship/i, /visa sponsorship/i, /h1-b/i, /h1b/i, /will sponsor/i],
-  negative: [/no sponsorship/i, /without visa sponsorship/i, /without the need for employer sponsorship/i, /cannot sponsor/i, /not eligible for sponsorship/i, /citizen/i, /citizenship/i, /U.S. citizenship/i]
+  negative: [/no sponsorship/i, /without visa sponsorship/i, /without the need for employer sponsorship/i, /cannot sponsor/i, /not eligible for sponsorship/i,  /U.S. citizenship/i]
 };
 
 function analyzeSponsorship() {
